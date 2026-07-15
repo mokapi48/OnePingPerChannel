@@ -1,7 +1,10 @@
-# OnePingPerDM
-If unread messages are sent by a user in DMs multiple times, you'll only receive one audio ping. Read the messages to reset the limit
+# OnePingPerChannel
 
-## Purpose
-- Prevents ping audio spam in DMs
-- Be able to distinguish more than one ping as multiple users
-- Be less annoyed while gaming
+A Vencord plugin that limits notifications: you only get **one alert (sound + visual)** per conversation, even if several messages or mentions arrive in a row.
+
+Works for:
+- Direct Messages (DMs)
+- Group DMs
+- Servers
+
+Based on the [OnePingPerDM plugin](https://github.com/Vendicated/Vencord/tree/main/src/plugins/onePingPerDM).
